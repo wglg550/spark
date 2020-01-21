@@ -1,0 +1,175 @@
+2020-01-08 15:55:58.964| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 7870 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 15:55:58.975| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 15:55:58.976| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 15:56:01.348| main | INFO |  -  | Multiple Spring Data modules found, entering strict repository configuration mode! | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:244]
+2020-01-08 15:56:01.349| main | INFO |  -  | Bootstrapping Spring Data repositories in DEFAULT mode. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:126]
+2020-01-08 15:56:01.413| main | INFO |  -  | Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:182]
+2020-01-08 15:56:01.450| main | INFO |  -  | Multiple Spring Data modules found, entering strict repository configuration mode! | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:244]
+2020-01-08 15:56:01.454| main | INFO |  -  | Bootstrapping Spring Data repositories in DEFAULT mode. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:126]
+2020-01-08 15:56:01.493| main | INFO |  -  | Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:182]
+2020-01-08 15:56:02.616| main | INFO |  -  | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4627b00a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) | [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330]
+2020-01-08 15:56:03.280| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 15:56:03.323| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:56:03.349| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:56:03.351| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:56:03.691| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:56:03.692| main | INFO |  -  | Root WebApplicationContext: initialization completed in 4485 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 15:56:03.820| main | WARN |  -  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class | [org.springframework.context.support.AbstractApplicationContext:557]
+2020-01-08 15:56:03.825| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:56:03.878| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2020-01-08 15:56:03.883| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2020-01-08 15:57:55.220| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 7915 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 15:57:55.228| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 15:57:55.230| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 15:57:58.773| main | INFO |  -  | Bootstrapping Spring Data repositories in DEFAULT mode. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:126]
+2020-01-08 15:57:58.871| main | INFO |  -  | Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:182]
+2020-01-08 15:58:00.280| main | INFO |  -  | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb8b3a83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) | [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330]
+2020-01-08 15:58:01.212| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 15:58:01.260| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:58:01.285| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:58:01.285| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:58:01.610| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:58:01.611| main | INFO |  -  | Root WebApplicationContext: initialization completed in 5914 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 15:58:01.729| main | WARN |  -  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class | [org.springframework.context.support.AbstractApplicationContext:557]
+2020-01-08 15:58:01.735| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:58:01.756| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2020-01-08 15:58:01.759| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2020-01-08 15:59:23.647| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 7938 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 15:59:23.655| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 15:59:23.656| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 15:59:25.877| main | INFO |  -  | Bootstrapping Spring Data repositories in DEFAULT mode. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:126]
+2020-01-08 15:59:26.008| main | INFO |  -  | Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:182]
+2020-01-08 15:59:26.795| main | INFO |  -  | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2a650f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) | [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330]
+2020-01-08 15:59:27.446| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 15:59:27.494| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:59:27.514| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:59:27.514| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:59:27.799| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:59:27.800| main | INFO |  -  | Root WebApplicationContext: initialization completed in 3880 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 15:59:27.992| main | WARN |  -  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class | [org.springframework.context.support.AbstractApplicationContext:557]
+2020-01-08 15:59:27.998| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 15:59:28.023| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2020-01-08 15:59:28.028| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2020-01-08 16:00:16.135| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 7953 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 16:00:16.140| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 16:00:16.141| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 16:00:17.907| main | INFO |  -  | Bootstrapping Spring Data repositories in DEFAULT mode. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:126]
+2020-01-08 16:00:17.978| main | INFO |  -  | Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces. | [org.springframework.data.repository.config.RepositoryConfigurationDelegate:182]
+2020-01-08 16:00:18.628| main | INFO |  -  | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$356dffdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) | [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330]
+2020-01-08 16:00:19.188| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 16:00:19.223| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:00:19.237| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:00:19.238| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:00:19.534| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:00:19.535| main | INFO |  -  | Root WebApplicationContext: initialization completed in 3243 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 16:00:19.662| main | WARN |  -  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class | [org.springframework.context.support.AbstractApplicationContext:557]
+2020-01-08 16:00:19.667| main | INFO |  -  | Stopping service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:00:19.686| main | INFO |  -  | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. | [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136]
+2020-01-08 16:00:19.689| main | ERROR |  -  | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ | [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40]
+2020-01-08 16:00:59.324| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 7975 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 16:00:59.331| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 16:00:59.332| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 16:01:01.418| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 16:01:01.473| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:01:01.491| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:01:01.492| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:01:01.710| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:01:01.711| main | INFO |  -  | Root WebApplicationContext: initialization completed in 2263 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 16:01:02.203| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2020-01-08 16:01:02.707| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:01:02.773| main | INFO |  -  | Tomcat started on port(s): 8080 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2020-01-08 16:01:02.781| main | INFO |  -  | Started SparkDemoApplication in 5.436 seconds (JVM running for 7.053) | [org.springframework.boot.StartupInfoLogger:59]
+2020-01-08 16:13:15.239| Thread-15 | INFO |  -  | Shutting down ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208]
+2020-01-08 16:13:23.597| main | INFO |  -  | Starting SparkDemoApplication on kingdeMacBook-Air.local with PID 8099 (/Users/king/workspace/spark/target/classes started by king in /Users/king/workspace/spark) | [org.springframework.boot.StartupInfoLogger:50]
+2020-01-08 16:13:23.605| main | DEBUG |  -  | Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE | [org.springframework.boot.StartupInfoLogger:53]
+2020-01-08 16:13:23.607| main | INFO |  -  | No active profile set, falling back to default profiles: default | [org.springframework.boot.SpringApplication:648]
+2020-01-08 16:13:27.222| main | INFO |  -  | Tomcat initialized with port(s): 8080 (http) | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90]
+2020-01-08 16:13:27.279| main | INFO |  -  | Initializing ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:13:27.316| main | INFO |  -  | Starting service [Tomcat] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:13:27.317| main | INFO |  -  | Starting Servlet engine: [Apache Tomcat/9.0.24] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:13:27.871| main | INFO |  -  | Initializing Spring embedded WebApplicationContext | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:13:27.872| main | INFO |  -  | Root WebApplicationContext: initialization completed in 4095 ms | [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284]
+2020-01-08 16:13:28.800| main | INFO |  -  | Initializing ExecutorService 'applicationTaskExecutor' | [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171]
+2020-01-08 16:13:29.311| main | INFO |  -  | Starting ProtocolHandler ["http-nio-8080"] | [org.apache.juli.logging.DirectJDKLog:173]
+2020-01-08 16:13:29.392| main | INFO |  -  | Tomcat started on port(s): 8080 (http) with context path '' | [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:202]
+2020-01-08 16:13:29.399| main | INFO |  -  | Started SparkDemoApplication in 8.743 seconds (JVM running for 10.799) | [org.springframework.boot.StartupInfoLogger:59]
